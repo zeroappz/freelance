@@ -1,0 +1,148 @@
+div.ubm_terms {
+	height: 120px;
+	overflow: scroll;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	line-height: 18px;
+	font-size: 13px;
+	font-family: arial;
+	padding: 3px;
+	margin-top: 5px;
+}
+
+.ubm_box {
+	max-width: 640px;
+	min-width: 320px;
+	margin: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	padding: 15px 15px;
+	border: 2px solid #CCC;
+	border-spacing: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+	color: #333;
+	font-size: 13px;
+	font-family: arial, verdana;
+	background-color: #F8F8F8;
+}
+
+em.ubm_comment {
+	color: #888;
+	font-size: 12px;
+	font-family: arial, verdana;
+	background-color: #F8F8F8;
+	line-height: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+input.ubm_qty {
+	font-size: 14px !important;
+	line-height: 18px !important;
+	font-weight: normal;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	padding: 4px 6px;
+	border: 1px solid #CCC;
+	border-spacing: 0;
+	font-family: arial, verdana;
+/*	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;*/
+	margin: 0px;
+	background-color: #FFF !important;
+	width: 80px;
+	text-align: right;
+}
+
+input.ubm_file {
+	font-size: 14px !important;
+	font-weight: normal;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0px 6px;
+	border: 1px solid #CCC;
+	border-spacing: 0;
+	font-family: arial, verdana;
+/*	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;*/
+	margin: 0px;
+	background-color: #FFF !important;
+}
+
+
+img.ubm_loading {
+	margin: 0px 0px 0px 10px !important;
+	padding: 0px 0px 0px 0px !important;
+	background: transparent !important;
+	border-width: 0px !important;
+	display: none;
+	vertical-align: middle;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+}
+.ubm_error_message {
+	display: block; 
+	line-height: 22px; 
+	background: #FBE3E4 url('../img/error.gif') no-repeat 10px 6px; 
+	padding: 3px 10px 3px 35px; 
+	color:#8a1f11;
+	border: 1px solid #FBC2C4; 
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius:3px; 
+	margin-top: 5px;
+	font-size: 13px;
+	font-family: arial, verdana;
+}
+ul.ubm_error_messages { margin: 0 0 0 15px !important; padding: 0; }
+ul.ubm_error_messages li {line-height: 20px; color:#333; margin-top: 0px; margin-bottom: 0px;}
+.ubm_container table.ubm_confirmation_table {border-width: 0px !important; margin: 0px 0px 0px 0px !important; text-align: left; width: 100%; background: transparent;}
+.ubm_container table.ubm_confirmation_table tr td {border-width: 0px !important; padding: 0px 0px 4px 0px !important; vertical-align: top;}
+
+a.ubm_banner, 
+a.ubm_banner:hover {
+	background-color: #F0F0F0 !important;
+	display: inline-block !important;
+	text-align: center !important;
+	color: #06C !important;
+	font-family: arial !important;
+	font-size: 13px !important;
+	font-weight: normal !important;
+	text-decoration: none !important;
+	padding: 0px !important;
+	margin: 10px 0;
+}
+.ubm_signup_form input{
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 0 !important;
+}
+.zechat-chat a.ubm_banner,
+.zechat-chat a.ubm_banner:hover {
+	margin: 0;
+}
